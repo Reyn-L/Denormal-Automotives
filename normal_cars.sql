@@ -14,3 +14,9 @@ id SERIAL NOT NULL PRIMARY KEY,
 model_code VARCHAR(100),
 model_title VARCHAR(100)
 );
+
+CREATE TABLE make_cars(
+id SERIAL NOT NULL PRIMARY KEY,
+make_code VARCHAR(100),
+make_title VARCHAR(100)
+);
